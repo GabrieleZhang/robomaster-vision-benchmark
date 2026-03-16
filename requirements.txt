@@ -1,0 +1,7 @@
+ultralytics
+openvino
+opencv-python
+numpy
+pandas
+loguru
+tqdm
