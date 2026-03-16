@@ -250,4 +250,58 @@ This suggests that 'model size plays a major role in CPU deployment performance'
 # Optimization Roadmap
 
 Based on current findings:
+Current: S models (~13 FPS CPU)
+
+↓
+Nano models
+
+↓
+ONNX export + graph optimization
+
+↓
+INT8 quantization
+
+↓
+
+Target: 200+ FPS CPU inference
+
+Planned next steps:
+
+Phase 2
+
+- Train nano-sized models
+- Evaluate accuracy vs efficiency trade-offs
+
+Phase 3
+
+- ONNX export
+- INT8 quantization
+- inference pipeline optimization
+
+---
+
+# Project Structure
+
+
+---
+
+# Future Work
+
+- Nano model training
+- INT8 quantization
+- pipeline optimization
+- real robot deployment testing
+
+---
+
+# References
+
+YOLOv11 documentation  
+https://docs.ultralytics.com/
+
+RT-DETR paper  
+https://arxiv.org/abs/2304.08069
+
+OpenVINO toolkit  
+https://docs.openvino.ai/
 
